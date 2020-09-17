@@ -4,6 +4,7 @@
 .body {
     overflow-x: hidden !important;
     font-family: 'Mukta', sans-serif;
+    margin: 0;
 }
 
 html {
@@ -539,6 +540,15 @@ h4{
     margin-bottom: 10px;
 }
 
+.komotxt{
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 8px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+
 
 .surakshya-text{
     font-size: 18px;
@@ -574,6 +584,7 @@ h4{
     font-weight: 600;
     margin-bottom: 8px;
     margin-left: 8px;
+    margin-top: 8px;
 
 }
 
@@ -753,6 +764,14 @@ h4{
     min-height: 410px;
     OBJECT-FIT: COVER;
 }
+
+.komo{
+    max-width: 100%;
+    max-height: 120px;
+    OBJECT-FIT: COVER;
+    padding: 5px;
+} 
+
 
 .img:hover {
     opacity: 0.6;
@@ -1392,7 +1411,7 @@ a:active {
     font-size: 32px;
     font-weight: bold;
     text-align: left;
-    margin: 20px 0px 0px 8px;
+    margin: 10px 0px 0px 8px;
 }
 
 .intern-font{
@@ -1415,6 +1434,11 @@ a:active {
 .asia{
     padding-top: 40px;
     padding-bottom: 25px;
+}
+
+.asia1{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -1447,12 +1471,11 @@ a:active {
 
 }
 
-.sideimage{
-    height: 140px;
+.sideimage {
+    height: 130px;
     margin-top: 10px;
     margin-bottom: 10px;
     max-width: 100%;
-    
 }
 
 .economy-text {
@@ -1557,6 +1580,7 @@ a:active {
         object-fit: cover;
         width: 1000px;
         height: 505px;
+        padding-bottom: 10px;
     }
 
     img.malikaimg.my-2 {
@@ -1564,3 +1588,20 @@ a:active {
         width: 100%;
     }
 
+    .oppoimg{
+    padding: .5rem!important;
+    height: 570px;
+    object-fit: cover;
+    max-width: 100%;
+}
+    
+
+.line { 
+    background: green; 
+    height: 5px; 
+    border-radius: 4px; 
+    width: 0%; 
+    position: relative; 
+    top: -61px; 
+    z-index: 999;
+} 

@@ -1,129 +1,804 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+<link href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
 
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
 
-    <title>Khabarhub</title>
+<title>Khabarhub</title>
+
 <body>
-    
-<!-- logo and Navbar Section -->
-<div class="container-fluid">
-    <div class="row container-fluid logo-container">
-        <div class="col-12  ">
-            <img src="img/kabar.png" alt="" class="pt-5 pl-2 logoimg">
-            <div class="time">१२ भाद्र २०७७, शुक्रबार</div>
+
+    <!-- logo and Navbar Section -->
+    <div class="container-fluid">
+        <div class="row container-fluid logo-container">
+            <div class="col-12  ">
+                <img src="img/kabar.png" alt="" class="pt-5 pl-2 logoimg">
+                <div class="time">१२ भाद्र २०७७, शुक्रबार</div>
+            </div>
         </div>
     </div>
-</div>
-<div class="sticky-top">
-    <nav class="navbar navbar-expand-sm  nav-edit p-0 ">
-        <div class="container-fluid h-100">
-            <button class="uk-button uk-button-default uk-margin-small-right canvas" type="button"
-                uk-toggle="target: #offcanvas-push"><img src="img/home.png" class="img img-fluid"></button>
+    <div class="sticky-top">
+        <nav class="navbar navbar-expand-sm  nav-edit p-0 ">
+            <div class="container-fluid h-100">
+                <button class="uk-button uk-button-default uk-margin-small-right canvas" type="button"
+                    uk-toggle="target: #offcanvas-push"><img src="img/home.png" class="img img-fluid"></button>
 
-            <div class="collapse navbar-collapse" id="navContent">
-                <ul class="navbar-nav h-100">
-                    <li class="nav-item mx-2"><a href="index.html" class="nav-link deasign1"> होम </a></li>
-                    <li class="nav-item mx-2 "><a href="samachar.html" class="nav-link deasign1">समाचार</a></li>
-                    <li class="nav-item mx-1 "><a href="international.html" class="nav-link deasign1">अन्तर्राष्ट्रिय </a></li>
-                    <li class="nav-item mx-1 "><a href="economy.html" class="nav-link deasign1"> आर्थिक</a></li>
-                    <li class="nav-item mx-1 "><a href="travels.html" class="nav-link deasign1">ट्राभल</a> </li>
-                    <li class="nav-item mx-1 "><a href="opinion.html" class="nav-link deasign1">विचार</a> </li>
-                    <li class="nav-item mx-2 "><a href="health.html" class="nav-link deasign1">स्वास्थ्य</a></li>
-                    <li class="nav-item mx-2 "><a href="manoranjan.html" class="nav-link deasign1">मनोरञ्जन</a> </li>
-                    <li class="nav-item mx-2 "><a href="suchana.html" class="nav-link deasign1">सूचना-प्रविधि</a></li>
-                    <li class="nav-item mx-1 "><a href="politics.html" class="nav-link deasign1">राजनीति</a></li>
-                    <li class="nav-item mx-1 "><a href="security.html" class="nav-link deasign1">सुरक्षा</a></li>
-                    <li class="nav-item mx-2 "><a href="sport.html" class="nav-link deasign1"> खेलकुद</a></li>
-
-
-
-                    <li class="nav-item ">
-                        <a class="nav-link dropdown-toggle deasign1" href="/">
-                            अन्य
-                        </a>
-                        <div uk-dropdown class="dropdown-menu-list trend-sec m-0 p-0">
-                            <a class="dropdown-item dropdown-item drop1" href="#">जीवनशैली</a>
-                            <a class="dropdown-item dropdown-item" href="#">फिचर</a>
-                            <a class="dropdown-item dropdown-item" href="#">प्रवास</a>
-                            <a class="dropdown-item dropdown-item" href="#">धर्म / संस्कृति</a>
-                            <a class="dropdown-item dropdown-item" href="#">इमिग्रेसन</a>
-                            <a class="dropdown-item dropdown-item" href="#">रोजगार</a>
-                            <a class="dropdown-item dropdown-item" href="#"> पत्रपत्रिका</a>
-                            <a class="dropdown-item dropdown-item" href="#"> विचित्र संसार</a>
-                            <a class="dropdown-item dropdown-item" href="#"> सम–सामयिक</a>
-                            <a class="dropdown-item dropdown-item" href="#"> समाज</a>
-                            <a class="dropdown-item dropdown-item" href="#"> साहित्य</a>
-                            <a class="dropdown-item dropdown-item" href="#"> स्थानीय</a>
-                        </div>
-
-                    </li>
+                <div class="collapse navbar-collapse" id="navContent">
+                    <ul class="navbar-nav h-100">
+                        <li class="nav-item mx-2"><a href="index.html" class="nav-link deasign1"> होम </a></li>
+                        <li class="nav-item mx-2 "><a href="samachar.html" class="nav-link deasign1">समाचार</a></li>
+                        <li class="nav-item mx-1 "><a href="international.html"
+                                class="nav-link deasign1">अन्तर्राष्ट्रिय </a></li>
+                        <li class="nav-item mx-1 "><a href="economy.html" class="nav-link deasign1"> आर्थिक</a></li>
+                        <li class="nav-item mx-1 "><a href="travels.html" class="nav-link deasign1">ट्राभल</a> </li>
+                        <li class="nav-item mx-1 "><a href="opinion.html" class="nav-link deasign1">विचार</a> </li>
+                        <li class="nav-item mx-2 "><a href="health.html" class="nav-link deasign1">स्वास्थ्य</a></li>
+                        <li class="nav-item mx-2 "><a href="manoranjan.html" class="nav-link deasign1">मनोरञ्जन</a>
+                        </li>
+                        <li class="nav-item mx-2 "><a href="suchana.html" class="nav-link deasign1">सूचना-प्रविधि</a>
+                        </li>
+                        <li class="nav-item mx-1 "><a href="politics.html" class="nav-link deasign1">राजनीति</a></li>
+                        <li class="nav-item mx-1 "><a href="security.html" class="nav-link deasign1">सुरक्षा</a></li>
+                        <li class="nav-item mx-2 "><a href="sport.html" class="nav-link deasign1"> खेलकुद</a></li>
 
 
 
+                        <li class="nav-item ">
+                            <a class="nav-link dropdown-toggle deasign1" href="/">
+                                अन्य
+                            </a>
+                            <div uk-dropdown class="dropdown-menu-list trend-sec m-0 p-0">
+                                <a class="dropdown-item dropdown-item drop1" href="#">जीवनशैली</a>
+                                <a class="dropdown-item dropdown-item" href="#">फिचर</a>
+                                <a class="dropdown-item dropdown-item" href="#">प्रवास</a>
+                                <a class="dropdown-item dropdown-item" href="#">धर्म / संस्कृति</a>
+                                <a class="dropdown-item dropdown-item" href="#">इमिग्रेसन</a>
+                                <a class="dropdown-item dropdown-item" href="#">रोजगार</a>
+                                <a class="dropdown-item dropdown-item" href="#"> पत्रपत्रिका</a>
+                                <a class="dropdown-item dropdown-item" href="#"> विचित्र संसार</a>
+                                <a class="dropdown-item dropdown-item" href="#"> सम–सामयिक</a>
+                                <a class="dropdown-item dropdown-item" href="#"> समाज</a>
+                                <a class="dropdown-item dropdown-item" href="#"> साहित्य</a>
+                                <a class="dropdown-item dropdown-item" href="#"> स्थानीय</a>
+                            </div>
 
-                    <li class="nav-item mx-3"><a href="https://english.khabarhub.com/" target="_ blank"
-                            class="nav-link deasign2 text-white ">ENGLISH</a></li>
+                        </li>
 
-                    <span class="search_btn"><i class="fa fa-search "></i></span>
-                    <input type="text" class="search search-input" />
+
+
+
+                        <li class="nav-item mx-3"><a href="https://english.khabarhub.com/" target="_ blank"
+                                class="nav-link deasign2 text-white ">ENGLISH</a></li>
+
+                        <span class="search_btn"><i class="fa fa-search "></i></span>
+                        <input type="text" class="search search-input" />
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- trending section -->
+
+    <nav class="navbar navbar-expand-sm  bg-light col-md-12 d-none d-md-block m-0 p-0" id="secondary-nav">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="nav-item">
+                    <a class="nav-link text-dark trendingTitle mx-3">TREANDING</a>
+                </div>
+                <ul class="navbar-nav text-center">
+                    <li class=" nav-item deasign3 text-center">
+                        <a href="#sports" class="nav-link nav-item" style="color: #5a5a5a ;"># कोरोना भाइरस</a></li>
+
+                    <li class=" nav-item deasign3">
+                        <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># निषेधाज्ञा</a></li>
+
+                    <li class=" nav-item deasign3">
+                        <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># बाढीपहिरो</a></li>
+
+                    <li class=" nav-item deasign3">
+                        <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># नेकपा</a></li>
+
+                    <li class=" nav-item deasign3">
+                        <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># हरितालिका तीज</a></li>
+
+                    <li class=" nav-item deasign3">
+                        <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># प्रधानमन्त्री</a></li>
+
+                    <li class=" nav-item deasign3">
+                        <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># नेपाली सिनेमा</a></li>
 
                 </ul>
             </div>
         </div>
     </nav>
-</div>
-<!-- trending section -->
 
-<nav class="navbar navbar-expand-sm  bg-light col-md-12 d-none d-md-block m-0 p-0" id="secondary-nav">
     <div class="container-fluid">
-
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="nav-item">
-                <a class="nav-link text-dark trendingTitle mx-3">TREANDING</a>
+        <div class="row">
+            <div class="col-md-6 mt-3">
+                <p class="arthik-text1">
+                    <span style="color:#005ea9;">कर्मचारीमा</span>
+                    कोरोना पुष्टि भएपछि बैंक बन्द
+                </p>
+                <P class="sport-desc">
+                    रौतहट- रौतहटको गरुडा बजारस्थित राष्ट्रिय वाणिज्य बैंकका एक जना कर्मचारीमा कोरोनाभाइरस संक्रमण पुष्टि
+                    भएपछि बैंक अनिश्चितकालका लागि बन्द गरिएको छ। बैंकका शाखा प्रबन्धक घनश्याम कटुवालले एकजना कर्मचारीमा
+                    कोरोना संक्रमण पुष्टि भएको र अधिकांश कर्मचारीमा लक्षण देखिएकाले सेवा प्रवाह बन्द गरिएको बताए।
+                    पहिलेदेखि
+                    नै कर्मचारीको ग्राहकसित प्रत्यक्ष भेटघाट नभई सीमित कर्मचारीमार्फत् सेवा प्रवाह गराइरहेकोले
+                    कर्मचारीबाट
+                    ग्राहकमा संक्रमणको भने सम्भावना नरहेको कटुवालले बताए। अधिकांश कर्मचारीमा कोभिड–१९ सँग मिल्ने लक्षण
+                    देखिएपछि परीक्षण गरिने बैंकले जनाएको छ। परीक्षणको नतिजा नआउन्जेलसम्म सबै कर्मचारी आइसोलेसनमा
+                    बस्नुपर्ने
+                    हुँदा बैंकबाट प्रवाह हुने सम्पूर्ण सेवा बन्द गरिएको शाखा प्रबन्धक कटुवालले बताए। उनका अनुसार गरुडा
+                    नगरपालिकालाई कोरोना परीक्षणको पहलका लागि जानकारी गराइएको छ। कर्मचारी संक्रमित भएपछि बैंकको केन्द्रीय
+                    कार्यालयले शाखा...</P>
             </div>
-            <ul class="navbar-nav text-center">
-                <li class=" nav-item deasign3 text-center">
-                    <a href="#sports" class="nav-link nav-item" style="color: #5a5a5a ;"># कोरोना भाइरस</a></li>
 
-                <li class=" nav-item deasign3">
-                    <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># निषेधाज्ञा</a></li>
+            <div class="col-md-6 mt-3">
+                <a href=""><img src="img/World-Economy.jpg" alt="" class="img daya my-2"></a>
+            </div>
 
-                <li class=" nav-item deasign3">
-                    <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># बाढीपहिरो</a></li>
+        </div>
+    </div>
 
-                <li class=" nav-item deasign3">
-                    <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># नेकपा</a></li>
+    <div class="container-fluid mt-3">
+        <div class="row">
 
-                <li class=" nav-item deasign3">
-                    <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># हरितालिका तीज</a></li>
+            <div class="col-md-3 h-100">
+                <div class=" bg-light">
+                    <a href=""><img src="img/Death_corona_new.jpg" alt="" class="img  p-3"></a>
+                    <p class="intern-font "><span style="color: #005ea9;"> साउदीमा</span> पुनर्संरचनाको
+                        अलपत्र नेपाली श्रमिकहरूको सहज स्वदेश फिर्तीको व्यवस्था गर्न एनआरएनएको माग
+                        <br>
+                        <br>
+                    </p>
 
-                <li class=" nav-item deasign3">
-                    <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># प्रधानमन्त्री</a></li>
+                </div>
+            </div>
 
-                <li class=" nav-item deasign3">
-                    <a href="#sports" class="nav-link  ml-3" style="color: #5a5a5a ;"># नेपाली सिनेमा</a></li>
+            <div class="col-md-3 h-100">
+                <div class=" bg-light">
+                    <a href=""><img src="img//windows_7_pc.png" alt="" class="img  p-3"></a>
+                    <p class="intern-font "><span style="color: #005ea9;"> साउदीमा</span> पुनर्संरचनाको
+                        अलपत्र नेपाली श्रमिकहरूको सहज स्वदेश फिर्तीको व्यवस्था गर्न एनआरएनएको माग
+                        <br>
+                        <br>
+                    </p>
 
+                </div>
+            </div>
+
+            <div class="col-md-3 h-100">
+                <div class=" bg-light">
+                    <a href=""><img src="img/goku.jpeg" alt="" class="img  p-3"></a>
+                    <p class="intern-font "><span style="color: #005ea9;"> साउदीमा</span> पुनर्संरचनाको
+                        अलपत्र नेपाली श्रमिकहरूको सहज स्वदेश फिर्तीको व्यवस्था गर्न एनआरएनएको माग
+                        <br>
+                        <br>
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3 h-100">
+                <div class=" bg-light">
+                    <a href=""><img src="img//windows_7_pc.png" alt="" class="img  p-3"></a>
+                    <p class="intern-font "><span style="color: #005ea9;"> साउदीमा</span> पुनर्संरचनाको
+                        अलपत्र नेपाली श्रमिकहरूको सहज स्वदेश फिर्तीको व्यवस्था गर्न एनआरएनएको माग
+                        <br>
+                        <br>
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid  mt-4 ">
+        <div class="row">
+            <div class="col-md-4 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/wal.jpg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/anime.jpg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/goku.jpeg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid  mt-4 h-100">
+        <div class="row">
+            <div class="col-md-3 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/wal.jpg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/anime.jpg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/goku.jpeg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-3 mt-3 h-100">
+                <div style=" background-color: #f0f2f5;">
+                    <a href=""><img src="img/kamdo.jpg" alt="" class="img img-fluid p-3" style="OBJECT-FIT: COVER;"></a>
+                    <p class="intern-font"><span style="color: #005ea9;"> अलपत्र </span>
+                        भारतमा कोरोना संक्रमितको संख्यामा अर्को रेकर्ड, एकैदिन थप ९५ हजारमा संक्रमण
+                    </p>
+                    <p class="messi-text ">
+                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                        <br>
+                        <br>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class=" newsItemBg mt-3 h-100">
+                    <a href="#">
+                        <h4 class="item-title newsBigTitle">
+                            <p class="title-list">अपराध</p>
+                        </h4>
+                    </a>
+
+                    <a href=""><img src="img/tiktok.png" alt="" class="img" style="min-width: 100%;"></a>
+
+                    <p class="media-text22"> <span style="color: #005ea9;">चिया</span>
+                        सेतो पिउने कि कालो ? यस्ता छन् मुटुरोग विशेषज्ञ डा. रेग्मीका केही सुझाव</p>
+
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">निजी</span>
+                            क्षेत्रप्रति नकारात्मक दृष्टिकोण</p>
+                    </div>
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">यसकारण</span>
+                            हानीकारक छ मादकपदार्थ</p>
+                    </div>
+
+                    <div class="media">
+                        <p class="media-text22"> <span style="color: #005ea9;"> हरियो</span>
+                            खुर्सानी पानी पिउँदा स्वास्थ्यमा पुग्छ यस्तो फाइदा</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class=" newsItemBg mt-3 h-100">
+                    <a href="#">
+                        <h4 class="item-title newsBigTitle">
+                            <p class="title-list">सेना</p>
+                        </h4>
+                    </a>
+
+                    <a href=""><img src="img/windows_7_pc.png" alt="" class="img" style="min-width: 100%;"></a>
+
+                    <p class="media-text22"> <span style="color: #005ea9;">चिया</span>
+                        सेतो पिउने कि कालो ? यस्ता छन् मुटुरोग विशेषज्ञ डा. रेग्मीका केही सुझाव</p>
+
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">निजी</span>
+                            क्षेत्रप्रति नकारात्मक दृष्टिकोण</p>
+                    </div>
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">यसकारण</span>
+                            हानीकारक छ मादकपदार्थ</p>
+                    </div>
+
+                    <div class="media">
+                        <p class="media-text22"> <span style="color: #005ea9;"> हरियो</span>
+                            खुर्सानी पानी पिउँदा स्वास्थ्यमा पुग्छ यस्तो फाइदा</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class=" newsItemBg mt-3 h-100">
+                    <a href="#">
+                        <h4 class="item-title newsBigTitle">
+                            <p class="title-list">सशस्त्र</p>
+                        </h4>
+                    </a>
+
+                    <a href=""><img src="img/what-gyms-can-do.webp" alt="" class="img" style="min-width: 100%;"></a>
+
+                    <p class="media-text22"> <span style="color: #005ea9;">चिया</span>
+                        सेतो पिउने कि कालो ? यस्ता छन् मुटुरोग विशेषज्ञ डा. रेग्मीका केही सुझाव</p>
+
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">निजी</span>
+                            क्षेत्रप्रति नकारात्मक दृष्टिकोण</p>
+                    </div>
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">यसकारण</span>
+                            हानीकारक छ मादकपदार्थ</p>
+                    </div>
+
+                    <div class="media">
+                        <p class="media-text22"> <span style="color: #005ea9;"> हरियो</span>
+                            खुर्सानी पानी पिउँदा स्वास्थ्यमा पुग्छ यस्तो फाइदा</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class=" newsItemBg mt-3 h-100">
+                    <a href="#">
+                        <h4 class="item-title newsBigTitle">
+                            <p class="title-list">प्रहरी</p>
+                        </h4>
+                    </a>
+
+                    <a href=""><img src="img/tiktok.png" alt="" class="img" style="min-width: 100%;"></a>
+
+                    <p class="media-text22"> <span style="color: #005ea9;">चिया</span>
+                        सेतो पिउने कि कालो ? यस्ता छन् मुटुरोग विशेषज्ञ डा. रेग्मीका केही सुझाव</p>
+
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">निजी</span>
+                            क्षेत्रप्रति नकारात्मक दृष्टिकोण</p>
+                    </div>
+
+                    <div class="media media-border1">
+                        <p class="media-text22"> <span style="color: #005ea9;">यसकारण</span>
+                            हानीकारक छ मादकपदार्थ</p>
+                    </div>
+
+                    <div class="media">
+                        <p class="media-text22"> <span style="color: #005ea9;"> हरियो</span>
+                            खुर्सानी पानी पिउँदा स्वास्थ्यमा पुग्छ यस्तो फाइदा</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Anya Section -->
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="navbar navbar-light bgcolor2">
+                    <div class="container d-flex ">
+                        <div class="international">
+                            <a href="#" class=" d-flex align-items-start">
+                                <strong class="text-5">अन्य</strong>
+                                <a>
+                        </div>
+
+                        <div class="Toggle-btn-b">
+                            <a href=""><i class="fas fa-bars rajneti-toogle"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mt-4 h-100">
+                <div class=" bg-light asia1">
+                    <a href=""><img src="img/aisa.jpg" alt="" class="img  p-3"></a>
+                    <p class="intern-font "><span style="color: #005ea9;"> साउदीमा</span> पुनर्संरचनाको
+                        अलपत्र नेपाली श्रमिकहरूको सहज स्वदेश फिर्तीको व्यवस्था गर्न एनआरएनएको माग
+                        <br>
+                        <br>
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-md-8 mt-1 h-100">
+                <div class="bg-light mt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="align-self-center">
+                                    <a href=""><img src="img/durgesh.jpg" alt="" class="img international-image2"
+                                            width="180" height="250"></a>
+                                </div>
+                                <div class="media-body">
+                                    <p class="soprt-text mt-4 "> <span style="color: #005ea9;">मेस्सी </span>
+                                        प्रशिक्षणमा फर्किए
+                                    </p>
+                                    <p class="messi-text">
+                                        एजेन्सी- बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="media mt-4">
+                                <div class="align-self-center">
+                                    <a href=""><img src="img/rajesh.jpg" alt="" class="img international-image2"
+                                            width="180" height="250"></a>
+                                </div>
+                                <div class="media-body mt-4">
+                                    <p class="soprt-text mt-4 "> <span style="color: #005ea9;"> एजेन्सी</span>
+                                        प्रशिक्षणमा फर्किए
+                                    </p>
+                                    <p class="messi-text ">
+                                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                                        <br>
+                                        <br>
+
+                                    </p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="media">
+                                <div class="align-self-center">
+                                    <a href=""><img src="img/malaika-arjun.jpg" alt="" class="img international-image2"
+                                            width="180" height="250"></a>
+                                </div>
+                                <div class="media-body">
+                                    <p class="soprt-text mt-4 "> <span style="color: #005ea9;"> एजेन्सी</span>
+                                        प्रशिक्षणमा फर्किए
+                                    </p>
+                                    <p class="messi-text">
+                                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="media below-intern">
+                                <div class="align-self-center">
+                                    <a href=""><img src="img/dayahang-rai.jpg" alt="" class="img international-image2"
+                                            width="180" height="250"></a>
+                                </div>
+                                <div class="media-body mt-4">
+                                    <p class="soprt-text mt-4 "> <span style="color: #005ea9;"> एजेन्सी</span>
+                                        प्रशिक्षणमा फर्किए
+                                    </p>
+                                    <p class="messi-text">
+                                        - बार्सिलोनामै बस्ने निदोमा पुगेका कप्तान लियोनल मेस्सी प्रशिक्षणमा
+                                        फर्किएका छन् । सिजन बार्सिलोनामै बस्ने निर्णय गरेका मेस्सी
+                                        <br>
+                                        <br>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Canvas -->
+
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar nav-edit">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="list-unstyled ">
+                <li class="nav-item mx-2"><a href="index.html" class="nav-link deasign1"> होम </a></li>
+                <li class="nav-item mx-2 "><a href="samachar.html" class="nav-link deasign1">समाचार</a></li>
+                <li class="nav-item mx-1 "><a href="international.html" class="nav-link deasign1">अन्तर्राष्ट्रिय </a>
+                </li>
+                <li class="nav-item mx-1 "><a href="economy.html" class="nav-link deasign1"> आर्थिक</a></li>
+                <li class="nav-item mx-1 "><a href="travels.html" class="nav-link deasign1">ट्राभल</a> </li>
+                <li class="nav-item mx-1 "><a href="opinion.html" class="nav-link deasign1">विचार</a> </li>
+                <li class="nav-item mx-2 "><a href="health.html" class="nav-link deasign1">स्वास्थ्य</a></li>
+                <li class="nav-item mx-2 "><a href="manoranjan.html" class="nav-link deasign1">मनोरञ्जन</a> </li>
+                <li class="nav-item mx-2 "><a href="suchana.html" class="nav-link deasign1">सूचना-प्रविधि</a></li>
+                <li class="nav-item mx-1 "><a href="politics.html" class="nav-link deasign1">राजनीति</a></li>
+                <li class="nav-item mx-1 "><a href="security.html" class="nav-link deasign1">सुरक्षा</a></li>
+                <li class="nav-item mx-2 "><a href="sport.html" class="nav-link deasign1"> खेलकुद</a></li>
             </ul>
         </div>
     </div>
-</nav>
+
+    <!-- canvas -->
+
+
+
+    <!-- footer section -->
+
+    <div class="container-fluid nav-edit mt-5">
+        <div class="row">
+            <div class="col-md-1">
+                <div class="my-5 footer_logo">
+                    <img src="img/sticky-logo.png" alt="" class="rounded-circle">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <p class=" footer-text-top text-white">
+                    पेभलियन मिडिया प्रा.लि
+                </p>
+                <ul class="list-unstyled">
+                    <li class=" footer-text text-white"><i class="fa fa-book"></i>
+                        सूचना विभाग दर्ता नं. : १२२२/०७५-०७६
+
+                    </li>
+                    <li class=" footer-text text-white"><i class="fas fa-user-tie"></i>
+                        अध्यक्ष: नरेश श्रेष्ठ
+
+                    </li>
+                    <li class=" footer-text text-white"><i class="fa fa-user"></i>
+                        प्रधान-सम्पादक: गोविन्द लुइँटेल
+
+                    </li>
+                    <li class=" footer-text text-white"><i class="fas fa-map-marker-alt"></i>
+                        ठेगाना: याक एण्ड यति मार्ग, दरवारमार्ग
+
+                    </li>
+
+                    <li class="footer-text text-white"><i class="fa fa-envelope"></i>
+                        ई-मेल: info@khabarhub.com
+
+                    </li>
+                    <li class="footer-text text-white"><i class="fa fa-phone"></i>
+                        फोन नं. : +९७७-१- ४२४९१५८
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-5 top-margin">
+
+                <p class="text-center text-white text-3">INFO</p>
+                <hr>
+                <div class="row footerRow1">
+                    <div class="col-md-3">
+                        <ul class="text-white list-unstyled">
+                            <li class="abcde">ABOUT US</li>
+                            <li class="abcde">OUR TEAM</li>
+                            <li class="abcde">MEDIA KIT</li>
+                            <li class="abcde">PARTNERSHIP</li>
+                            <li class="abcde">TERMS OF USE</li>
+                            <li class="abcde">CONTRIBUTORS</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="text-white list-unstyled">
+                            <li class="abcde">INQUIRIES</li>
+                            <li class="abcde">MISSION</li>
+                            <li class="abcde">SUBSCRIBE</li>
+                            <li class="abcde">RSS FEED</li>
+                            <li class="abcde">SITE MAP</li>
+                            <li class="abcde">UNICODE</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <ul class="text-white list-unstyled">
+                            <li class="abcde">CONTACT</li>
+                            <li class="abcde">ADVERTISE</li>
+                            <li class="abcde">AD POLICY</li>
+                            <li class="abcde">FEEDBACK</li>
+                            <li class="abcde">CAREERS</li>
+                            <li class="abcde">MORE</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="text-white list-unstyled">
+                            <li class="abcde">EDITORIAL POLICY</li>
+                            <li class="abcde">CODE OF CONDUCT</li>
+                            <li class="abcde">
+                                OWNERSHIP & FUNDING </li>
+                            <li class="abcde">PRIVACY POLICY</li>
+                            <li class="abcde">CORRECTION POLICY</li>
+                            <li class="abcde">FACT-CHECKING POLICY</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-3 top-margin">
+
+                <p class="text-center text-white text-3">साइट नेविगेशन</p>
+                <hr>
+                <div class="row footerRow">
+                    <div class="col-md-3">
+                        <ul class="text-white list-unstyled">
+                            <li class="abc">होम</li>
+                            <li class="abc">समाचार</li>
+                            <li class="abc">अन्तर्राष्ट्रिय</li>
+                            <li class="abc">आर्थिक</li>
+                            <li class="abc">जीवनशैली</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="text-white list-unstyled">
+                            <li class="abc">फिचर</li>
+                            <li class="abc">प्रवास</li>
+                            <li class="abc">धर्म</li>
+                            <li class="abc">
+                                ट्राभल</li>
+                            <li class="abc">विचार</li>
+                            <li class="abc">
+                                स्वास्थ्य</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="text-white list-unstyled">
+                            <li class="abc">मनोरञ्जन</li>
+                            <li class="abc">
+                                इमिग्रेसन</li>
+                            <li class="abc"></li>
+                            <li class="abc">रोजगार</li>
+                            <li class="abc">देश</li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul class="text-white list-unstyled">
+                            <li class="abc">खेलकुद</li>
+                            <li class="abc">सूचना</li>
+                            <li class="abc">
+                                राजनीति </li>
+                            <li class="abc">राशिफल</li>
+                            <li class="abc"></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- scroll buttton -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-angle-up"></i></button>
+
+
+
+    <div class="container-fluid nav-reedit">
+        <div class="row">
+            <div class="col-md-8">
+
+                <p class="abcd"> &copy;2020 Khabarhub | All Right Reserved. Powered by
+                    <a href="https://www.appharu.com/" target="_blank" class="mx-2"> <b> Appharu</b></a>
+                </p>
+            </div>
+
+            <div class="col-md-4 nav-reedit">
+                <div class=" d-flex justify-content-center mt-2">
+                    <div class="mx-2">
+                        <a href="fb.com" class="icon_color1"> <i class="fab fa-facebook fa-2x"></i></a>
+                    </div>
+                    <div class="mx-3">
+                        <a href="fb.com" class="icon_color2"> <i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+
+                    <div class="mx-2">
+                        <a href="ig.com" class="icon_color3"> <i class="fab fa-instagram fa-2x"></i></a>
+                    </div>
+
+                    <div class="mx-3">
+                        <a href="twitter.com" class="icon_color4"> <i class="fab fa-twitter fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -133,126 +808,116 @@
 
 
 
-   
+    <script>
+        $('html,body').animate({
+            scrollTop: 0
+        }, 'slow');
+    </script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f4226890d91d735">
+    </script>
+    <script>
+        $('.searchicon').hover(function () {
+            $('.search').addClass('show');
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+    <script type="text/javascript">
+        var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+            'August', 'September', 'October', 'November', 'December'
+        ];
+        var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+            'August', 'September', 'October', 'November', 'December'
+        ];
+        var today = new Date();
+        today.setTime(today.getTime());
+        document.getElementById("spanDate").innerHTML = months[today.getMonth()] + " " + today
+            .getDate() +
+            ", " +
+            today
+            .getFullYear();
+    </script>
 
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 
+    <script>
+        // Get the current year for the copy right
+        $('#year').text(new Date().getFullYear());
+    </script>
+    <script>
+        // let share = document.getElementsByTagName("span");
+        // for(let i=0; i<share.length; i++){
+        //     console.log(share[i])
+        // }
 
+        let count = document.getElementsByClassName("table");
+        console.log(count)
+    </script>
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
 
+        // Init Scrollspy
+        $('body').scrollspy({
+            target: '#main-nav'
+        });
+        // Smooth Scrolling
+        $("#main-nav a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
 
+                const hash = this.hash;
 
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function () {
 
+                    window.location.hash = hash;
+                });
+            }
+        });
+    </script>
 
-  
-<script>
-    $('html,body').animate({
-        scrollTop: 0
-    }, 'slow');
-</script>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f4226890d91d735">
-</script>
-<script>
-    $('.searchicon').hover(function () {
-        $('.search').addClass('show');
-    });
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- scroll button -->
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
 
-<script type="text/javascript">
-    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-        'August', 'September', 'October', 'November', 'December'
-    ];
-    var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July',
-        'August', 'September', 'October', 'November', 'December'
-    ];
-    var today = new Date();
-    today.setTime(today.getTime());
-    document.getElementById("spanDate").innerHTML = months[today.getMonth()] + " " + today
-        .getDate() +
-        ", " +
-        today
-        .getFullYear();
-</script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
 
-<script src="http://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
-</script>
-
-<script>
-    // Get the current year for the copy right
-    $('#year').text(new Date().getFullYear());
-</script>
-<script>
-    // let share = document.getElementsByTagName("span");
-    // for(let i=0; i<share.length; i++){
-    //     console.log(share[i])
-    // }
-
-    let count = document.getElementsByClassName("table");
-    console.log(count)
-</script>
-<script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-
-    // Init Scrollspy
-    $('body').scrollspy({
-        target: '#main-nav'
-    });
-    // Smooth Scrolling
-    $("#main-nav a").on('click', function (event) {
-        if (this.hash !== "") {
-            event.preventDefault();
-
-            const hash = this.hash;
-
-            $('html, body').animate({
-                scrollTop: $(hash).offset().top
-            }, 800, function () {
-
-                window.location.hash = hash;
-            });
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
-    });
-</script>
 
-<!-- scroll button -->
-<script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-        scrollFunction()
-    };
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
-        } else {
-            mybutton.style.display = "none";
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
+    </script>
 
 
 
-<script src="jquery.js"></script>
-<script src="uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
 
 </body>
+
 </html>
