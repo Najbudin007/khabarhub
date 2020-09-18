@@ -699,6 +699,17 @@ h4{
     margin-bottom: 17px;
 }
 
+.singleside-text{
+    font-weight: 500;
+    font-size: 22px;
+    margin-left: 8px;
+    text-align: left;
+    margin: 2px;
+    margin-left: -15px;
+    margin-top: 8px;
+    margin-bottom: 17px;
+}
+
 .sport-image {
     margin: 5px 8px 0px 0px;
     height: 95px;
@@ -1246,6 +1257,32 @@ h4{
         margin: 0;
         border: none;
     }
+
+    .single_logo::after{
+        content: 'खबरहब';
+        color: #032540;
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 10px;
+        position: absolute;
+    }
+    
+    .single-date {
+        position: absolute;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: -50px;
+        color: #6c757d;
+    }
+    
+    
+    .time-taken {
+        position: absolute;
+        margin-top: -80px;
+        font-size: 20px;
+        color: #6c757d;
+        font-weight: bold;
+    }
 }
 
 
@@ -1605,3 +1642,58 @@ a:active {
     top: -61px; 
     z-index: 999;
 } 
+
+.margin{
+    padding-left: 125px;
+    padding-right: 125px;
+} 
+
+.wrapper-text{
+    font-size: 3.5em;
+    font-weight: bold;
+    color: #242434;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.single_logo::after{
+    content: 'खबरहब';
+    color: #032540;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    position: absolute;
+}
+
+.single-date {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: -50px;
+    color: #6c757d;
+}
+
+
+.time-taken {
+    transform: translateX(610px);
+    position: absolute;
+    margin-top: -80px;
+    font-size: 20px;
+    color: #6c757d;
+    font-weight: bold;
+
+}
+
+.single-border{
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.win{
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.border{
+    border-top:1px solid rgba(0,0,0,.1);
+}
+
